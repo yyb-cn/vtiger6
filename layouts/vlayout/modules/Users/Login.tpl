@@ -46,14 +46,6 @@
 					<a target="_blank" href="http://{$COMPANY_DETAILSCOMPANY_DETAILS.website}">{$COMPANY_DETAILS.name}</a>
 					</div>
 				</div>
-				<div class="span9">
-					<div class="helpLinks">
-						<a href="https://www.vtiger.com">Vtiger Website</a> | 
-						<a href="https://wiki.vtiger.com/vtiger6/">Vtiger Wiki</a> | 
-						<a href="https://www.vtiger.com/crm/videos/">Vtiger videos </a> | 
-						<a href="https://discussions.vtiger.com/">Vtiger Forums</a> 
-					</div>
-				</div>
 			</div>
 			<div class="row-fluid">
 				<div class="span12">
@@ -62,36 +54,31 @@
 							<div class="row-fluid">
 								<div class="span6">
 									<div class="carousal-container">
-										<div><h2> Get more out of Vtiger </h2></div>
+										<div><h2> 让自己每天进步一点点 </h2></div>
 										<ul class="bxslider">
 											<li>
 												<div id="slide01" class="slide">
-													<img class="pull-left" src="{vimage_path('android_text.png')}">
-													<img class="pull-right" src="{vimage_path('android.png')}"/>
+													<img class="pull-left" src="{vimage_path('come_on_01.png')}">
 												</div>
 											</li>
 											<li>
 												<div id="slide02" class="slide">
-													<img class="pull-left" src="{vimage_path('iphone_text.png')}"/>
-													<img class="pull-right" src="{vimage_path('iphone.png')}"/>
+													<img class="pull-left" src="{vimage_path('come_on_02.png')}">
 												</div>
 											</li>
 											<li>
 												<div id="slide03" class="slide">
-													<img class="pull-left" src="{vimage_path('ipad_text.png')}"/>
-													<img class="pull-right" src="{vimage_path('ipad.png')}"/>
+													<img class="pull-left" src="{vimage_path('come_on_03.png')}">
 												</div>
 											</li>
 											<li>
 												<div id="slide04" class="slide">
-													<img class="pull-left" src="{vimage_path('exchange_conn_text.png')}"/>
-													<img class="pull-right" src="{vimage_path('exchange_conn.png')}"/>
+													<img class="pull-left" src="{vimage_path('come_on_04.png')}">
 												</div>
 											</li>
 											<li>
 												<div id="slide05" class="slide">
-													<img class="pull-left" src="{vimage_path('outlook_text.png')}"/>
-													<img class="pull-right" src="{vimage_path('outlook.png')}"/>
+													<img class="pull-left" src="{vimage_path('come_on_05.png')}">
 												</div>
 											</li>
 										</ul>
@@ -101,7 +88,7 @@
 									<div class="login-area">
 										<div class="login-box" id="loginDiv">
 											<div class="">
-												<h3 class="login-header">Login to Vtiger CRM</h3>
+												<h3 class="login-header">管&nbsp;&nbsp;理&nbsp;&nbsp;登&nbsp;&nbsp;录</h3>
 											</div>
 											<form class="form-horizontal login-form" style="margin:0;" action="index.php?module=Users&action=Login" method="POST">
 												{if isset($smarty.request.error)}
@@ -125,29 +112,29 @@
 													</div>
 												{/if}
 												<div class="control-group">
-													<label class="control-label" for="username"><b>User name</b></label>
+													<label class="control-label" for="username"><b>用户名</b></label>
 													<div class="controls">
-														<input type="text" id="username" name="username" placeholder="Username">
+														<input type="text" id="username" name="username" placeholder="请输入用户名">
 													</div>
 												</div>
 
 												<div class="control-group">
-													<label class="control-label" for="password"><b>Password</b></label>
+													<label class="control-label" for="password"><b>密码</b></label>
 													<div class="controls">
-														<input type="password" id="password" name="password" placeholder="Password">
+														<input type="password" id="password" name="password" placeholder="请输入密码">
 													</div>
 												</div>
 												<div class="control-group signin-button">
 													<div class="controls" id="forgotPassword">
-														<button type="submit" class="btn btn-primary sbutton">Sign in</button>
-														&nbsp;&nbsp;&nbsp;<a>Forgot Password ?</a>
+														<button type="submit" class="btn btn-primary sbutton">登&nbsp;&nbsp;陆</button>
+														&nbsp;&nbsp;&nbsp;<a>忘记密码？</a>
 													</div>
 												</div>
 												{* Retain this tracker to help us get usage details *}
 												<img src='//stats.vtiger.com/stats.php?uid={$APPUNIQUEKEY}&v={$CURRENT_VERSION}&type=U' alt='' title='' border=0 width='1px' height='1px'>
 											</form>
 											<div class="login-subscript">
-												<small> Powered by vtiger CRM {$CURRENT_VERSION}</small>
+												<small> 浦发财富客户管理系统 {$CURRENT_VERSION}</small>
 											</div>
 										</div>
 										
